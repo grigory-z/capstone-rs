@@ -37,7 +37,7 @@ pub mod mode {
     bitflags! {
         #[repr(C)]
         #[doc="Capstone architecture mode flags"]
-        flags CsMode: u32 {
+        pub flags CsMode: u32 {
             #[doc="little-endian mode (default mode)"]
             const LITTLE_ENDIAN = 0,
             #[doc="32-bit ARM"]
